@@ -1,0 +1,17 @@
+.wrapper {
+  padding: 0 16px;
+  height: 554px;
+  background-color: var(--primary-background-color);
+}
+
+.title {
+  color: #fff;
+  font-feature-settings: "case" on, "ss04" on;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px; /* 125.714% */
+  letter-spacing: -1.4px;
+  text-transform: uppercase;
+}
