@@ -9,6 +9,7 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   margin: 0;
+  background-color: var(--primary-background-color);
 }
 
 h1,
