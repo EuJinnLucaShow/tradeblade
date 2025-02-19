@@ -1,4 +1,4 @@
-import Logo from "../../elements/Logo/Logo";
+import Logo from "../../icons/Logo/Logo";
 import HamburgerMenu from "../../modules/HamburgerMenu/HamburgerMenu";
 
 import styles from "./Header.module.css";

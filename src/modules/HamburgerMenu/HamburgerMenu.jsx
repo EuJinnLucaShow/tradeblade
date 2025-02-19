@@ -1,4 +1,4 @@
-import MenuIcon from "../../elements/MenuIcon/MenuIcon";
+import MenuIcon from "../../icons/Menu/Menu";
 
 import styles from "./HamburgerMenu.module.css";
 
