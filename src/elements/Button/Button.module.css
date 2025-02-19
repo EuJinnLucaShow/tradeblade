@@ -1,0 +1,14 @@
+.button {
+  padding: 16px 24px;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px 0px var(--btn-primary-bg);
+
+  font-feature-settings: "ss04" on;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  text-transform: uppercase;
+}

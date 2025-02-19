@@ -1,0 +1,7 @@
+.button {
+  margin-top: 9px;
+  margin-right: 8px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+}

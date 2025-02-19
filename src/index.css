@@ -2,7 +2,10 @@
 
 :root {
   --primary-background-color: #030718;
-  --secondary-background-color: #fff;
+  --secondary-background-color: #6a54ff;
+  --white: #fff;
+  --btn-primary-bg: #57e0ff;
+  --btn-secondary-bg: rgba(87, 225, 255, 0.2);
 }
 
 body {
