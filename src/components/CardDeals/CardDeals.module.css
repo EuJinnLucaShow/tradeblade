@@ -1,0 +1,21 @@
+.wrapper {
+  width: 299px;
+  height: 208px;
+  background-color: #6a54ff;
+  border-radius: 5px;
+  clip-path: polygon(0% 0%, 87% 0, 100% 18%, 100% 100%, 0% 100%);
+}
+
+.cryptocurrencies {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  padding-top: 16px;
+}
+
+.image {
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
