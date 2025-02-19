@@ -1,0 +1,37 @@
+.list_stat {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.item_stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.name_stat {
+  color: #000;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  text-transform: uppercase;
+  opacity: 0.8;
+
+  max-width: 143px;
+  height: 40px;
+}
+
+.value_stat {
+  color: var(--purple, #6a54ff);
+  font-variant-numeric: slashed-zero;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 38.5px */
+  letter-spacing: -0.7px;
+  text-transform: uppercase;
+}
