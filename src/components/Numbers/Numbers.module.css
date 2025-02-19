@@ -1,0 +1,43 @@
+.wrapper {
+  margin-top: 61px;
+  position: relative;
+}
+
+.container {
+  padding: 24px 16px 48px 16px;
+  background-color: var(--white);
+}
+
+.rectangle {
+  position: absolute;
+  top: -24px;
+  width: 272px;
+  height: 82px;
+  background-color: var(--white);
+  clip-path: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
+  z-index: -1;
+}
+
+.title {
+  color: #000;
+  font-feature-settings: "case" on, "ss04" on;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+  letter-spacing: -1.12px;
+  text-transform: uppercase;
+}
+
+.date_text {
+  color: #000;
+  font-variant-numeric: slashed-zero;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.56px;
+  opacity: 0.5;
+}
