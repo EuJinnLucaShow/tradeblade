@@ -23,13 +23,14 @@
   position: absolute;
   top: 38px;
   width: 128px;
+  z-index: 5;
 }
 
 .dropItem button {
   box-sizing: border-box;
   width: 100%;
   border: none;
-  background-color: #4f4f4f;
+  background-color: #344049;
   padding: 6px 5px 6px 8px;
 
   text-align: left;
