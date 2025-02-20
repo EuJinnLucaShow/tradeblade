@@ -1,4 +1,4 @@
-import CardDeals from "../CardDeals/CardDeals";
+import Carousel from "../Carousel/Carousel";
 import styles from "./PastDeals.module.css";
 
 export default function PastDeals() {
@@ -11,7 +11,9 @@ export default function PastDeals() {
           <span className={styles.text}>Онлайн</span>
         </div>
       </div>
-      <CardDeals />
+      <div className={styles.wrap_carousel}>
+        <Carousel />
+      </div>
     </div>
   );
 }
