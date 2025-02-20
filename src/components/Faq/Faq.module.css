@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  height: 714px;
+  padding: 56px 16px 40px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  background: #fff;
+}
+
+.title {
+  color: #030718;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+  letter-spacing: -1.12px;
+  text-transform: uppercase;
+}
