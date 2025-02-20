@@ -1,0 +1,19 @@
+.wrapper {
+  width: 375px;
+  height: 7764px;
+  padding: 0 16px;
+  background: #030718;
+  box-sizing: border-box;
+}
+
+.title {
+  margin-top: 56px;
+  color: #fff;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+  letter-spacing: -1.12px;
+  text-transform: uppercase;
+}
