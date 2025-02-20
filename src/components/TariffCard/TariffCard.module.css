@@ -64,3 +64,38 @@
   letter-spacing: -0.72px;
   text-transform: uppercase;
 }
+
+.button {
+  display: flex;
+  width: 310px;
+  height: 52px;
+  padding: 16px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  border-radius: 3px;
+  background: #57e1ff;
+  box-shadow: 0px 0px 4px 0px #57e1ff;
+
+  color: #030718;
+  font-feature-settings: "ss04" on;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  text-transform: uppercase;
+}
+
+.button_span {
+  color: #030718;
+  font-feature-settings: "ss04" on;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  opacity: 0.56;
+}
