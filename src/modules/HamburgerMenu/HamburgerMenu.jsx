@@ -1,7 +1,7 @@
 import { createPortal } from "react-dom";
 import { useState } from "react";
 
-import MenuIcon from "../../icons/Menu/Menu";
+import MenuIcon from "../../icons/Menu";
 import ModalMenu from "../../components/ModalMenu/ModalMenu";
 import styles from "./HamburgerMenu.module.css";
 

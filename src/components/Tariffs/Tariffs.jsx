@@ -1,3 +1,4 @@
+import TariffCard from "../TariffCard/TariffCard";
 import styles from "./Tariffs.module.css";
 
 export default function Tariffs() {
@@ -7,6 +8,10 @@ export default function Tariffs() {
       <div className={styles.filter}>
         <button className={styles.spot}>СПОТ</button>
         <button className={styles.futures}>фьючерс</button>
+      </div>
+      <div className={styles.wrap_card}>
+        <TariffCard />
+        <TariffCard />
       </div>
     </div>
   );

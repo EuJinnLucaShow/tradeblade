@@ -1,7 +1,5 @@
 .wrapper {
-  width: 375px;
-  height: 7764px;
-  padding: 0 16px;
+  padding: 0 16px 44px 16px;
   background: #030718;
   box-sizing: border-box;
 }
@@ -19,6 +17,7 @@
 }
 
 .filter {
+  margin-top: 24px;
   padding: 4px;
   display: flex;
   border-radius: 4px;
@@ -55,4 +54,11 @@
   letter-spacing: -0.72px;
   text-transform: uppercase;
   opacity: 0.8;
+}
+
+.wrap_card {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

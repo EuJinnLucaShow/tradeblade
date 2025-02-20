@@ -1,0 +1,41 @@
+.wrapper {
+  position: relative;
+}
+
+.dropdown {
+  display: flex;
+  width: 128px;
+  padding: 6px 5px 6px 8px;
+  align-items: flex-end;
+  gap: 4px;
+  border: none;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.2);
+
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+
+.dporList {
+  position: absolute;
+  top: 38px;
+  width: 128px;
+}
+
+.dropItem button {
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  background-color: #4f4f4f;
+  padding: 6px 5px 6px 8px;
+
+  text-align: left;
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
