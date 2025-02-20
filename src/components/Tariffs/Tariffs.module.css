@@ -17,3 +17,42 @@
   letter-spacing: -1.12px;
   text-transform: uppercase;
 }
+
+.filter {
+  padding: 4px;
+  display: flex;
+  border-radius: 4px;
+  background: #6a54ff;
+}
+
+.spot {
+  width: 167px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #57e1ff;
+  border: none;
+
+  color: #000;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+
+.futures {
+  width: 167px;
+  height: 44px;
+  background-color: transparent;
+  border: none;
+
+  color: #57e1ff;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}

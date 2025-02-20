@@ -8,8 +8,17 @@
   --btn-secondary-bg: rgba(87, 225, 255, 0.2);
 }
 
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url(./fonts/IBMPlexSans-VariableFont_wdth_wght.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100 900;
+  font-style: normal;
   line-height: 1.5;
   margin: 0;
   background-color: var(--primary-background-color);

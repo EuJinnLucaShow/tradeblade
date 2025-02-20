@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 
 import logo from "../../assets/logo.png";
 import ArrowUp from "../../icons/ArrowUp";
-import styles from "./CardDeals.module.css";
+import styles from "./DealsCard.module.css";
 
-export default function CardDeals({ deal }) {
+export default function DealsCard({ deal }) {
   return (
     <div className={styles.wrapper}>
       <img src={logo} alt="logo" width={111} className={styles.image} />
@@ -29,6 +29,6 @@ export default function CardDeals({ deal }) {
   );
 }
 
-CardDeals.propTypes = {
+DealsCard.propTypes = {
   deal: PropTypes.object,
 };

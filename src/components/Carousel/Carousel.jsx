@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import CardDeals from "../CardDeals/CardDeals";
+import DealsCard from "../DealsCard/DealsCard";
 
 const deals = [
   {
@@ -51,7 +51,7 @@ export default function Carousel() {
     <div className="slider-container">
       <Slider {...settings}>
         {deals.map((deal) => (
-          <CardDeals key={deal.id} deal={deal} />
+          <DealsCard key={deal.id} deal={deal} />
         ))}
       </Slider>
     </div>
