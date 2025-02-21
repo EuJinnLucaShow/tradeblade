@@ -13,20 +13,22 @@ export default function Faq() {
 
   return (
     <div className={styles.wrapper}>
-      <h2 className={styles.title}>часто задаваемые вопросы</h2>
-      <div className={styles.question_wrapper}>
-        {faqItems.map((item) => (
-          <Accordion
-            key={item.id}
-            title={item.question}
-            isOpen={openAccordion === item.id}
-            onClick={() => handleItemClick(item.id)}
-          >
-            <div className={styles.answer}>
-              <p>{item.answer}</p>
-            </div>
-          </Accordion>
-        ))}
+      <div className={styles.content}>
+        <h2 className={styles.title}>часто задаваемые вопросы</h2>
+        <div className={styles.question_wrapper}>
+          {faqItems.map((item) => (
+            <Accordion
+              key={item.id}
+              title={item.question}
+              isOpen={openAccordion === item.id}
+              onClick={() => handleItemClick(item.id)}
+            >
+              <div className={styles.answer}>
+                <p>{item.answer}</p>
+              </div>
+            </Accordion>
+          ))}
+        </div>
       </div>
     </div>
   );

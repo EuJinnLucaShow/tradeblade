@@ -4,6 +4,11 @@
   align-items: flex-start;
   gap: 16px;
   opacity: 0.67;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    height: 20px;
+  }
 }
 
 .item {

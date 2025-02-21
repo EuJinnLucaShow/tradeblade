@@ -3,8 +3,17 @@
   padding: 56px 16px 40px 16px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 40px;
   background: #fff;
+
+  @media (min-width: 1024px) {
+    align-items: center;
+  }
+}
+
+.content {
+  @media (min-width: 1024px) {
+    width: 846px;
+  }
 }
 
 .title {
@@ -15,12 +24,23 @@
   line-height: 36px; /* 128.571% */
   letter-spacing: -1.12px;
   text-transform: uppercase;
+
+  @media (min-width: 1024px) {
+    font-size: 44px;
+    line-height: 56px; /* 127.273% */
+    letter-spacing: -1.76px;
+  }
 }
 
 .question_wrapper {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  margin-top: 40px;
+
+  @media (min-width: 1024px) {
+    margin-top: 64px;
+  }
 }
 
 .answer {

@@ -21,6 +21,10 @@
   line-height: 28px; /* 140% */
   letter-spacing: -0.8px;
   text-align: left;
+
+  @media (min-width: 1024px) {
+    width: 658px;
+  }
 }
 
 .answer {

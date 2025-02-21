@@ -1,6 +1,12 @@
 .wrapper {
   background: #030718;
   padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
 }
 
 .nav_wrapper {
@@ -26,10 +32,15 @@
 }
 
 .line {
-  width: 375px;
+  width: 100%;
   height: 1px;
   opacity: 0.3;
   background: #fff;
+
+  @media (min-width: 1024px) {
+    width: 348px;
+    transform: rotate(-90deg);
+  }
 }
 
 .logo_wrapper {
