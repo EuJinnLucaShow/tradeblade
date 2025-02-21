@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .title {
   margin-top: 56px;
   color: #fff;
@@ -20,8 +25,13 @@
   margin-top: 24px;
   padding: 4px;
   display: flex;
+  justify-content: space-between;
   border-radius: 4px;
   background: #6a54ff;
+
+  @media (min-width: 1024px) {
+    width: 413px;
+  }
 }
 
 .spot {
@@ -38,6 +48,10 @@
   line-height: 24px; /* 133.333% */
   letter-spacing: -0.72px;
   text-transform: uppercase;
+
+  @media (min-width: 1024px) {
+    width: 201px;
+  }
 }
 
 .futures {
@@ -54,6 +68,10 @@
   letter-spacing: -0.72px;
   text-transform: uppercase;
   opacity: 0.8;
+
+  @media (min-width: 1024px) {
+    width: 201px;
+  }
 }
 
 .wrap_card {
@@ -61,4 +79,9 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
