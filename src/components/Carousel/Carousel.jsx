@@ -1,40 +1,8 @@
+import PropTypes from "prop-types";
 import Slider from "react-slick";
 import DealsCard from "../DealsCard/DealsCard";
 
-const deals = [
-  {
-    id: 1,
-    crypto: "NEAR/USDT",
-    value: "58.6206%",
-  },
-  {
-    id: 2,
-    crypto: "BTC/USDT",
-    value: "6.02%",
-  },
-  {
-    id: 3,
-    crypto: "ETH/USDT",
-    value: "16.3%",
-  },
-  {
-    id: 4,
-    crypto: "NEAR/USDT",
-    value: "0.963%",
-  },
-  {
-    id: 5,
-    crypto: "NEAR/USDT",
-    value: "58.6206%",
-  },
-  {
-    id: 6,
-    crypto: "BTC/USDT",
-    value: "22.963%",
-  },
-];
-
-export default function Carousel() {
+export default function Carousel({ deals }) {
   const settings = {
     className: "center",
     arrows: false,
@@ -57,3 +25,7 @@ export default function Carousel() {
     </div>
   );
 }
+
+Carousel.propTypes = {
+  deals: PropTypes.array,
+};

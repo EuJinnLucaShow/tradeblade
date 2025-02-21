@@ -1,4 +1,5 @@
 import Carousel from "../Carousel/Carousel";
+import { deals } from "../../data/dealsData";
 import styles from "./PastDeals.module.css";
 
 export default function PastDeals() {
@@ -12,7 +13,7 @@ export default function PastDeals() {
         </div>
       </div>
       <div className={styles.wrap_carousel}>
-        <Carousel />
+        <Carousel deals={deals} />
       </div>
     </div>
   );
