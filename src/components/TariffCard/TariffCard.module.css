@@ -3,6 +3,7 @@
   border-radius: 8px;
   border: 1px solid #6a54ff;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   gap: 24px;
 
@@ -40,7 +41,6 @@
 
 .wrap_cost {
   display: flex;
-  width: 311px;
   justify-content: space-between;
   align-items: center;
 }
@@ -71,7 +71,6 @@
 
 .button {
   display: flex;
-  width: 310px;
   height: 52px;
   padding: 16px 24px;
   flex-direction: column;
