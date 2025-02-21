@@ -4,10 +4,10 @@ import Numbers from "./components/Numbers/Numbers";
 import PastDeals from "./components/PastDeals/PastDeals";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Tariffs from "./components/Tariffs/Tariffs";
+import Faq from "./components/Faq/Faq";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Faq from "./components/Faq/Faq";
 
 function App() {
   return (
