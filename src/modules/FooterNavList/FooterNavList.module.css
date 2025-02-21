@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  opacity: 0.67;
+}
+
+.item {
+  color: var(--white);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  text-transform: uppercase;
+}

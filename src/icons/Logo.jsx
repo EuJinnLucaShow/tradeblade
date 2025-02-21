@@ -1,9 +1,11 @@
-export default function Logo() {
+import PropTypes from "prop-types";
+
+export default function Logo({ width, height }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="118"
-      height="52"
+      width={width}
+      height={height}
       viewBox="0 0 118 52"
       fill="none"
     >
@@ -161,3 +163,8 @@ export default function Logo() {
     </svg>
   );
 }
+
+Logo.propTypes = {
+  width: PropTypes.string.isRequired,
+  height: PropTypes.string.isRequired,
+};

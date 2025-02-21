@@ -1,0 +1,50 @@
+.wrapper {
+  background: #030718;
+  padding-top: 40px;
+}
+
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 42px;
+  padding-bottom: 57px;
+}
+
+.title_nav {
+  width: 107px;
+  opacity: 0.4;
+
+  color: #fff;
+  font-feature-settings: "ss04" on;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  text-transform: uppercase;
+}
+
+.line {
+  width: 375px;
+  height: 1px;
+  opacity: 0.3;
+  background: #fff;
+}
+
+.logo_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 20px 16px 25px 16px;
+}
+
+.copyright {
+  opacity: 0.5;
+  color: #fff;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}

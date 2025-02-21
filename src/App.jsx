@@ -5,6 +5,7 @@ import PastDeals from "./components/PastDeals/PastDeals";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Tariffs from "./components/Tariffs/Tariffs";
 import Faq from "./components/Faq/Faq";
+import Footer from "./components/Footer/Footer";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -19,6 +20,7 @@ function App() {
       <AboutUs />
       <Tariffs />
       <Faq />
+      <Footer />
     </>
   );
 }

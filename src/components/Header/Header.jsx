@@ -6,7 +6,7 @@ import styles from "./Header.module.css";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <Logo />
+      <Logo width={"107.111"} height={"52"} />
       <HamburgerMenu />
     </header>
   );
