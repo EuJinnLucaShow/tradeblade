@@ -11,7 +11,7 @@
   @media (max-width: 1024px) {
     position: absolute;
     bottom: -130px;
-    left: 9px;
+    left: 8%;
     width: 356px;
     height: 218px;
     padding: 16px;
@@ -63,7 +63,7 @@
 }
 
 .input {
-  width: 324px;
+  width: 100%;
   outline: none;
   background-color: transparent;
   border: none;
