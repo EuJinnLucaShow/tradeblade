@@ -4,15 +4,17 @@
 }
 
 .container {
-  padding: 24px 16px 48px 16px;
+  padding: 24px 16px 133px 16px;
   background-color: var(--white);
 
   @media (min-width: 1024px) {
     padding: 56px 80px 48px 80px;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
-.container div {
+.content {
   @media (min-width: 1024px) {
     width: 413px;
   }

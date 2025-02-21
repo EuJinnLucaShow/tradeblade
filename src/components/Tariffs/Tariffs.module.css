@@ -1,5 +1,5 @@
 .wrapper {
-  padding: 0 16px 44px 16px;
+  padding: 181px 16px 44px 16px;
   background: #030718;
   box-sizing: border-box;
 
@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 96px 16px 44px 16px;
   }
 }
 
@@ -17,7 +18,6 @@
 }
 
 .title {
-  margin-top: 56px;
   color: #fff;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 28px;

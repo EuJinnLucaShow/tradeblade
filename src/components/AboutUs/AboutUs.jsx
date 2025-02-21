@@ -1,3 +1,4 @@
+import TryItNowInput from "../../modules/TryItNowInput/TryItNowInput";
 import styles from "./AboutUs.module.css";
 
 export default function AboutUs() {
@@ -5,7 +6,7 @@ export default function AboutUs() {
     <div className={styles.wrapper}>
       <div className={styles.rectangle}></div>
       <div className={styles.container}>
-        <div>
+        <div className={styles.content}>
           <h2 className={styles.title}>О компании</h2>
           <p className={styles.text}>
             Мы опытная команда, для которой трейдинг – профессия. TradeBlade
@@ -17,6 +18,7 @@ export default function AboutUs() {
             запись Binance через платформу TradeBlade всего в 1 клик.
           </p>
         </div>
+        <TryItNowInput />
       </div>
     </div>
   );
