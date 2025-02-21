@@ -9,7 +9,6 @@ export default function Footer() {
         <div className={styles.title_nav}>Быстрая навигация</div>
         <FooterNavList />
       </div>
-      <div className={styles.line}></div>
       <div className={styles.logo_wrapper}>
         <Logo width={"165"} height={"80.103"} />
         <span className={styles.copyright}>
