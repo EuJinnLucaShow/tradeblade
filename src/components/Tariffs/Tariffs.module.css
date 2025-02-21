@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
 .title {
   margin-top: 56px;
   color: #fff;
