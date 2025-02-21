@@ -1,6 +1,5 @@
 .wrapper {
   display: flex;
-  height: 714px;
   padding: 56px 16px 40px 16px;
   flex-direction: column;
   align-items: flex-start;
@@ -16,4 +15,29 @@
   line-height: 36px; /* 128.571% */
   letter-spacing: -1.12px;
   text-transform: uppercase;
+}
+
+.question_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.answer {
+  padding: 0 16px 16px 16px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background: #6a54ff;
+}
+
+.answer p {
+  color: var(--white);
+  font-feature-settings: "ss04" on;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+
+  opacity: 0.8;
 }

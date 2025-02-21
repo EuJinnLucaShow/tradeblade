@@ -1,0 +1,28 @@
+.button {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 4px;
+  background: #eaeff0;
+
+  border: none;
+}
+
+.question {
+  width: 271px;
+  color: #030718;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.8px;
+  text-align: left;
+}
+
+.answer {
+  transition: 0.3s all ease-out;
+}
