@@ -11,7 +11,8 @@
   @media (max-width: 1024px) {
     position: absolute;
     bottom: -130px;
-    left: 8%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 356px;
     height: 218px;
     padding: 16px;
@@ -63,7 +64,6 @@
 }
 
 .input {
-  width: 100%;
   outline: none;
   background-color: transparent;
   border: none;
