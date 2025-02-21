@@ -3,9 +3,10 @@
   padding: 0 16px;
 
   @media (min-width: 1024px) {
+    margin-top: 160px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 }
 
@@ -26,6 +27,10 @@
   line-height: 44px; /* 125.714% */
   letter-spacing: -1.4px;
   text-transform: uppercase;
+
+  @media (min-width: 1024px) {
+    margin-top: 0;
+  }
 }
 
 .text {

@@ -1,6 +1,10 @@
 .wrapper_title {
   margin-top: 48px;
-  margin-left: 16px;
+  padding-left: 16px;
+
+  @media (min-width: 1024px) {
+    padding-left: 80px;
+  }
 }
 
 .title {
@@ -41,4 +45,8 @@
 
 .wrap_carousel {
   margin-top: 24px;
+
+  @media (min-width: 1024px) {
+    margin-left: 80px;
+  }
 }
