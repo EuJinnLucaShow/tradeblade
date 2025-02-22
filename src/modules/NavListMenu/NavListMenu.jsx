@@ -7,7 +7,9 @@ export default function NavListMenu() {
     <ul className={styles.list}>
       {Object.entries(navList).map(([key, value]) => (
         <li key={key} className={styles.item}>
-          {value}
+          <a href={`#${key}`} className={styles.link}>
+            {value}
+          </a>
         </li>
       ))}
     </ul>
