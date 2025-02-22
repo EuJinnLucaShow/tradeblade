@@ -19,7 +19,9 @@ export default function ModalMenu({ setIsOpen }) {
   };
 
   return (
-    <div className={`${styles.wrapper} ${isClosing && styles.close}`}>
+    <div
+      className={`${styles.wrapper} ${isClosing ? styles.close : styles.open}`}
+    >
       <div className={styles.container}>
         <ButtonClose onClick={handleClose} />
       </div>

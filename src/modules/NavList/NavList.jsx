@@ -1,8 +1,8 @@
-import styles from "./FooterNavList.module.css";
+import styles from "./NavList.module.css";
 
 import { navList } from "../../data/navListMenu";
 
-export default function FooterNavList() {
+export default function NavList() {
   return (
     <ul className={styles.list}>
       {Object.entries(navList).map(([key, value]) => (

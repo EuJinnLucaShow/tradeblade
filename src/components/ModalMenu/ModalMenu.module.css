@@ -9,9 +9,12 @@
 
   @starting-style {
     opacity: 0;
-    height: 0;
     transform: scaleX(0);
   }
+}
+
+.wrapper.open {
+  opacity: 1;
 }
 
 .wrapper.close {

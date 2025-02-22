@@ -1,5 +1,5 @@
 import Logo from "../../icons/Logo";
-import FooterNavList from "../../modules/FooterNavList/FooterNavList";
+import NavList from "../../modules/NavList/NavList";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={styles.wrapper}>
       <div className={styles.nav_wrapper}>
         <div className={styles.title_nav}>Быстрая навигация</div>
-        <FooterNavList />
+        <NavList />
       </div>
       <div className={styles.logo_wrapper}>
         <Logo width={"165"} height={"80.103"} />

@@ -4,7 +4,7 @@ import Logo from "../../icons/Logo";
 import HamburgerMenu from "../../modules/HamburgerMenu/HamburgerMenu";
 
 import styles from "./Header.module.css";
-import FooterNavList from "../../modules/FooterNavList/FooterNavList";
+import NavList from "../../modules/NavList/NavList";
 
 export default function Header() {
   const isMinWidth768 = useMediaQuery("(max-width: 768px)");
@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <Logo width={"107.111"} height={"52"} />
-      {!isMinWidth768 && <FooterNavList />}
+      {!isMinWidth768 && <NavList />}
       {!isMinWidth768 && (
         <div className={styles.btn_group}>
           <button className={styles.log_btn}>вход</button>
