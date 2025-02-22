@@ -15,6 +15,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
@@ -49,4 +53,9 @@ img {
 button {
   padding: 0;
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

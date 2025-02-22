@@ -3,7 +3,7 @@ import styles from "./AboutUs.module.css";
 
 export default function AboutUs() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="about_us">
       <div className={styles.rectangle}></div>
       <div className={styles.container}>
         <div className={styles.content}>

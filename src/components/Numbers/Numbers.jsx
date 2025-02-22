@@ -3,7 +3,7 @@ import styles from "./Numbers.module.css";
 
 export default function Numbers() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="numbers">
       <div className={styles.rectangle}></div>
       <div className={styles.container}>
         <div>

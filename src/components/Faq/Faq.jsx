@@ -12,7 +12,7 @@ export default function Faq() {
   };
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="faq">
       <div className={styles.content}>
         <h2 className={styles.title}>часто задаваемые вопросы</h2>
         <div className={styles.question_wrapper}>

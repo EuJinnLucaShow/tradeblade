@@ -6,7 +6,7 @@ import styles from "./Tariffs.module.css";
 
 export default function Tariffs() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="tariffs">
       <div className={styles.container}>
         <h2 className={styles.title}>Тарифы</h2>
         <div className={styles.filter}>
