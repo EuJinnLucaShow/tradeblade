@@ -15,7 +15,7 @@ export default function ModalMenu({ setIsOpen }) {
       <div className={styles.container}>
         <ButtonClose setIsOpen={setIsOpen} />
       </div>
-      <NavListMenu />
+      <NavListMenu setIsOpen={setIsOpen} />
       <div className={styles.btn_group}>
         <Button
           name={"регистрация"}
