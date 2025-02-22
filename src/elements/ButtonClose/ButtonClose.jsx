@@ -4,14 +4,14 @@ import styles from "./ButtonClose.module.css";
 
 import Close from "../../icons/Close";
 
-export default function ButtonClose({ setIsOpen }) {
+export default function ButtonClose({ onClick }) {
   return (
-    <button className={styles.button} onClick={() => setIsOpen(false)}>
+    <button className={styles.button} onClick={onClick}>
       <Close />
     </button>
   );
 }
 
 ButtonClose.propTypes = {
-  setIsOpen: PropTypes.func.isRequired,
+  onClick: PropTypes.func.isRequired,
 };

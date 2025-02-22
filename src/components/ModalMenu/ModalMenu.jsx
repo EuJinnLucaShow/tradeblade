@@ -4,16 +4,24 @@ import ButtonClose from "../../elements/ButtonClose/ButtonClose";
 import styles from "./ModalMenu.module.css";
 import NavListMenu from "../../modules/NavListMenu/NavListMenu";
 import Button from "../../elements/Button/Button";
+import { useState } from "react";
 
 const rootStyles = getComputedStyle(document.documentElement);
 const btnSignUpBgColor = rootStyles.getPropertyValue("--btn-primary-bg");
 const btnSignInBgColor = rootStyles.getPropertyValue("--btn-secondary-bg");
 
 export default function ModalMenu({ setIsOpen }) {
+  const [isClosing, setIsClosing] = useState(false);
+
+  const handleClose = () => {
+    setIsClosing(true);
+    setTimeout(() => setIsOpen(false), 500);
+  };
+
   return (
-    <div className={styles.wrapper}>
+    <div className={`${styles.wrapper} ${isClosing && styles.close}`}>
       <div className={styles.container}>
-        <ButtonClose setIsOpen={setIsOpen} />
+        <ButtonClose onClick={handleClose} />
       </div>
       <NavListMenu setIsOpen={setIsOpen} />
       <div className={styles.btn_group}>
