@@ -41,6 +41,19 @@
   height: 7px;
   background-color: #35ff9e;
   border-radius: 100%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #35ff9e;
+  }
+  70% {
+    box-shadow: 0 0 0 9px rgba(53, 255, 158, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(53, 255, 158, 0);
+  }
 }
 
 .wrap_carousel {
