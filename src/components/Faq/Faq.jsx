@@ -5,7 +5,7 @@ import styles from "./Faq.module.css";
 import { faqItems } from "../../data/faqItems";
 
 export default function Faq() {
-  const [openAccordion, setOpenAccordion] = useState(null);
+  const [openAccordion, setOpenAccordion] = useState(1);
 
   const handleItemClick = (id) => {
     setOpenAccordion((prev) => (prev === id ? null : id));
