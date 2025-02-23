@@ -6,22 +6,20 @@
   align-items: center;
   border: none;
   border-radius: 4px;
-  background: #eaeff0;
+}
 
-  transition: border-radius 0.3s ease-out, background-color 0.3s ease-out,
-    color 0.3s ease-out;
+.button.close {
+  background-color: #eaeff0;
 }
 
 .button.open {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   background-color: #6a54ff;
-  color: #ffffff;
 }
 
 .question {
   width: 271px;
-  color: #030718;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -33,6 +31,14 @@
   @media (min-width: 1024px) {
     width: 658px;
   }
+}
+
+.question.close {
+  color: #030718;
+}
+
+.question.open {
+  color: #ffffff;
 }
 
 .answer {

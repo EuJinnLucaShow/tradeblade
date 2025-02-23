@@ -11,17 +11,12 @@ export default function Accordion({ children, title, isOpen, onClick }) {
     <div className={styles.wrapper}>
       <button
         onClick={onClick}
-        className={`${styles.button} ${isOpen ? styles.open : ""}`}
+        className={`${styles.button} ${isOpen ? styles.open : styles.close}`}
       >
         <span
-          className={styles.question}
-          style={
-            isOpen
-              ? {
-                  color: "#FFFFFF",
-                }
-              : {}
-          }
+          className={`${styles.question} ${
+            isOpen ? styles.open : styles.close
+          }`}
         >
           {title}
         </span>
