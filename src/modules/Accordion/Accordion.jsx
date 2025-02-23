@@ -11,17 +11,7 @@ export default function Accordion({ children, title, isOpen, onClick }) {
     <div className={styles.wrapper}>
       <button
         onClick={onClick}
-        className={styles.button}
-        style={
-          isOpen
-            ? {
-                borderBottomLeftRadius: "0px",
-                borderBottomRightRadius: "0px",
-                backgroundColor: "#6A54FF",
-                color: "#FFFFFF",
-              }
-            : {}
-        }
+        className={`${styles.button} ${isOpen ? styles.open : ""}`}
       >
         <span
           className={styles.question}
@@ -42,7 +32,10 @@ export default function Accordion({ children, title, isOpen, onClick }) {
         ref={contentRef}
         className={styles.answer}
         style={{
-          height: isOpen ? `${contentRef.current.scrollHeight}px` : "0px",
+          height:
+            isOpen && contentRef.current
+              ? `${contentRef.current.scrollHeight}px`
+              : "0px",
           transition: "height 0.3s ease-out",
           overflow: "hidden",
         }}

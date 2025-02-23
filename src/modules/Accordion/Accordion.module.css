@@ -4,11 +4,19 @@
   padding: 16px;
   justify-content: space-between;
   align-items: center;
-
+  border: none;
   border-radius: 4px;
   background: #eaeff0;
 
-  border: none;
+  transition: border-radius 0.3s ease-out, background-color 0.3s ease-out,
+    color 0.3s ease-out;
+}
+
+.button.open {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #6a54ff;
+  color: #ffffff;
 }
 
 .question {
