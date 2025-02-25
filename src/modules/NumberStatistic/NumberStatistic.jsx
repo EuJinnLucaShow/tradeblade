@@ -16,7 +16,7 @@ export default function NumberStatistic() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.6 }
     );
 
     if (currentRef) {
