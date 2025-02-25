@@ -3,7 +3,11 @@ import { useEffect, useState } from "react";
 
 import styles from "./CountUpAnimation.module.css";
 
-export default function CountUpAnimation({ targetValue, pro_centum }) {
+export default function CountUpAnimation({
+  isVisible,
+  targetValue,
+  pro_centum,
+}) {
   const [count, setCount] = useState(0);
   const duration = 4000;
   const stepsCount = 60;
@@ -12,6 +16,8 @@ export default function CountUpAnimation({ targetValue, pro_centum }) {
   const intervalTime = duration / stepsCount;
 
   useEffect(() => {
+    if (!isVisible) return;
+
     let startValue = 0;
 
     const counter = setInterval(() => {
@@ -26,7 +32,7 @@ export default function CountUpAnimation({ targetValue, pro_centum }) {
     return () => {
       clearInterval(counter);
     };
-  }, [intervalTime, step, targetValue]);
+  }, [intervalTime, isVisible, step, targetValue]);
 
   return (
     <span className={styles.value_stat}>
@@ -37,6 +43,7 @@ export default function CountUpAnimation({ targetValue, pro_centum }) {
 }
 
 CountUpAnimation.propTypes = {
+  isVisible: PropTypes.bool.isRequired,
   targetValue: PropTypes.string.isRequired,
   pro_centum: PropTypes.string.isRequired,
 };
