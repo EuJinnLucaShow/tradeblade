@@ -46,6 +46,13 @@
 }
 
 .banner {
+  transition: opacity 1s ease, transform 1s ease, max-height 1s ease;
+
+  @starting-style {
+    opacity: 0;
+    transform: scale(0);
+  }
+
   @media (min-width: 1024px) {
     width: 469px;
     height: 209px;

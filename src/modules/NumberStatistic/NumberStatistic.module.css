@@ -28,6 +28,7 @@
   max-width: 143px;
 
   @media (min-width: 1024px) {
+    min-width: 193px;
     max-width: max-content;
   }
 }

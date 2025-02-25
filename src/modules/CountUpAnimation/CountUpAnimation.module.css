@@ -1,0 +1,18 @@
+.value_stat {
+  color: var(--purple, #6a54ff);
+  font-variant-numeric: slashed-zero;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 38.5px */
+  letter-spacing: -0.7px;
+  text-transform: uppercase;
+
+  @media (min-width: 1024px) {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 110%; /* 66px */
+    letter-spacing: -1.2px;
+  }
+}
