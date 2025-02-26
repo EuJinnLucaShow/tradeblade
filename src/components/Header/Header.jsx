@@ -15,8 +15,8 @@ export default function Header() {
       {!isMinWidth768 && <NavList />}
       {!isMinWidth768 && (
         <div className={styles.btn_group}>
-          <button className={styles.log_btn}>вход</button>
-          <button className={styles.reg_btn}>регистрация</button>
+          <button className={styles.log_btn}>Login</button>
+          <button className={styles.reg_btn}>Register</button>
         </div>
       )}
       {isMinWidth768 && <HamburgerMenu />}

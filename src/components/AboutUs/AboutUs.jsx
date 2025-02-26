@@ -7,15 +7,15 @@ export default function AboutUs() {
       <div className={styles.rectangle}></div>
       <div className={styles.container}>
         <div className={styles.content}>
-          <h2 className={styles.title}>О компании</h2>
+          <h2 className={styles.title}>About Us</h2>
           <p className={styles.text}>
-            Мы опытная команда, для которой трейдинг – профессия. TradeBlade
-            является авторизованным официальным брокером биржи Binance.
+            We are an experienced team for whom trading is a profession.
+            TradeBlade is an authorized official broker of the Binance exchange.
             <br />
             <br />
-            Он представляет пользователям множество преимуществ, таких как более
-            високая скорость синхронизации API и возможность создать учетную
-            запись Binance через платформу TradeBlade всего в 1 клик.
+            It offers users numerous advantages, such as higher API
+            synchronization speed and the ability to create a Binance account
+            through the TradeBlade platform in just one click.
           </p>
         </div>
         <TryItNowInput />

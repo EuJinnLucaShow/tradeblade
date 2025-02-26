@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className={styles.wrapper}>
       <div className={styles.nav_wrapper}>
-        <div className={styles.title_nav}>Быстрая навигация</div>
+        <div className={styles.title_nav}>Quick Navigation</div>
         <NavList />
       </div>
       <div className={styles.logo_wrapper}>

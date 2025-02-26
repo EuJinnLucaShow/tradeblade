@@ -9,11 +9,11 @@ export default function Hero() {
       <img src={banner} alt="banner" className={styles.banner} />
       <div className={styles.container}>
         <h1 className={styles.title}>
-          моментально Копируй сделки профи трейдеров
+          Instantly Copy Trades of Professional Traders
         </h1>
         <p className={styles.text}>
-          Начни копировать сделки с успешной командой профессиональных трейдеров
-          в автоматическом режиме.
+          Start copying trades with a successful team of professional traders in
+          automatic mode.
         </p>
         <SignUpInput />
       </div>

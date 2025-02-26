@@ -14,7 +14,7 @@ export default function Faq() {
   return (
     <div className={styles.wrapper} id="faq">
       <div className={styles.content}>
-        <h2 className={styles.title}>часто задаваемые вопросы</h2>
+        <h2 className={styles.title}>Frequently Asked Questions</h2>
         <div className={styles.question_wrapper}>
           {faqItems.map((item) => (
             <Accordion
