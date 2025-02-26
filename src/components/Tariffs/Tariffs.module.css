@@ -41,7 +41,7 @@
   }
 }
 
-.spot {
+.active {
   width: 167px;
   height: 44px;
   border-radius: 4px;
@@ -61,7 +61,7 @@
   }
 }
 
-.futures {
+.inactive {
   width: 167px;
   height: 44px;
   background-color: transparent;
