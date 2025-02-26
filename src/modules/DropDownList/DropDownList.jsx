@@ -17,14 +17,14 @@ export default function DropDownList() {
   return (
     <div className={styles.wrapper}>
       <button className={styles.dropdown} onClick={() => setIsOpen(!isOpen)}>
-        <span>{value} months</span> <ArrowDropDown />
+        <span>{value} month</span> <ArrowDropDown />
       </button>
       {isOpen && (
         <ul className={styles.dporList}>
           {arr.map((option) => (
             <li key={option} className={styles.dropItem}>
               <button onClick={() => handleClick(option)}>
-                <span>{option} months</span>
+                <span>{option} month</span>
               </button>
             </li>
           ))}
