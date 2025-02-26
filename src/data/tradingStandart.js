@@ -1,18 +1,18 @@
 export const standartList = [
   {
     id: 1,
-    value: "Ручной трейдинг",
+    value: "Manual Trading",
   },
   {
     id: 2,
-    value: "Автоматическое или полуавтоматическое копирование сделок",
+    value: "Automatic or Semi-Automatic Trade Copying",
   },
   {
     id: 3,
-    value: "Личный кабинет со статистикой",
+    value: "Personal Dashboard with Statistics",
   },
   {
     id: 4,
-    value: "Среднесрочные сделки с уровнями набора портфеля",
+    value: "Medium-Term Trades with Portfolio Allocation Levels",
   },
 ];

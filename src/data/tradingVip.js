@@ -1,26 +1,26 @@
 export const vipList = [
   {
     id: 1,
-    value: "Ручной трейдинг",
+    value: "Manual Trading",
   },
   {
     id: 2,
-    value: "Автоматическое или полуавтоматическое копирование сделок",
+    value: "Automatic or Semi-Automatic Trade Copying",
   },
   {
     id: 3,
-    value: "Личный кабинет со статистикой",
+    value: "Personal Dashboard with Statistics",
   },
   {
     id: 4,
-    value: "Краткосрочные, среднесрочные и инвест сделки",
+    value: "Short-Term, Medium-Term, and Investment Trades",
   },
   {
     id: 5,
-    value: "Доступ в Vip чат с командой",
+    value: "Access to VIP Chat with the Team",
   },
   {
     id: 6,
-    value: "Наш авторский курс по трейдингу",
+    value: "Our Exclusive Trading Course",
   },
 ];

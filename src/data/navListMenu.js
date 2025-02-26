@@ -1,9 +1,9 @@
 export const navList = {
-  numbers: "Цифры",
-  past_deals: "Сделки онлайн",
-  about_us: "о компании",
-  how_to_start: "как начать",
-  tariffs: "тарифы",
-  feedback: "отзывы",
+  numbers: "Numbers",
+  past_deals: "Online Deals",
+  about_us: "About Us",
+  how_to_start: "How to Start",
+  tariffs: "Tariffs",
+  feedback: "Reviews",
   faq: "FAQ",
 };
