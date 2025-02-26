@@ -1,7 +1,9 @@
-import styles from "./NumberStatistic.module.css";
+import { useEffect, useRef, useState } from "react";
+
 import { statistics } from "../../data/numberStatistic";
 import CountUpAnimation from "../CountUpAnimation/CountUpAnimation";
-import { useEffect, useRef, useState } from "react";
+
+import styles from "./NumberStatistic.module.css";
 
 export default function NumberStatistic() {
   const [isVisible, setIsVisible] = useState(false);
