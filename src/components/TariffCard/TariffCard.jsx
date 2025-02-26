@@ -6,7 +6,7 @@ import DropDownList from "../../modules/DropDownList/DropDownList";
 
 import styles from "./TariffCard.module.css";
 
-export default function TariffCard({items, title, price, bgColor }) {
+export default function TariffCard({ items, title, price, bgColor }) {
   return (
     <div className={styles.wrapper} style={{ background: `${bgColor}` }}>
       <h3 className={styles.title}>{title}</h3>
@@ -31,8 +31,8 @@ export default function TariffCard({items, title, price, bgColor }) {
         </div>
       </div>
       <button className={styles.button}>
-        <span>Попробовать</span>
-        <span className={styles.button_span}>5 дней бесплатно</span>
+        <span>Try</span>
+        <span className={styles.button_span}>5 Days Free</span>
       </button>
     </div>
   );

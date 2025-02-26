@@ -6,10 +6,10 @@ export default function PastDeals() {
   return (
     <div className={styles.wrapper} id="past_deals">
       <div className={styles.wrapper_title}>
-        <h2 className={styles.title}>Прошедшие сделки</h2>
+        <h2 className={styles.title}>Past Deals</h2>
         <div className={styles.wrapper_status}>
           <div className={styles.status}></div>
-          <span className={styles.text}>Онлайн</span>
+          <span className={styles.text}>Online</span>
         </div>
       </div>
       <div className={styles.wrap_carousel}>

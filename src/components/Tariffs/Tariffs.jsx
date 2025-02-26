@@ -8,10 +8,10 @@ export default function Tariffs() {
   return (
     <div className={styles.wrapper} id="tariffs">
       <div className={styles.container}>
-        <h2 className={styles.title}>Тарифы</h2>
+        <h2 className={styles.title}>Tariffs</h2>
         <div className={styles.filter}>
-          <button className={styles.spot}>СПОТ</button>
-          <button className={styles.futures}>фьючерс</button>
+          <button className={styles.spot}>SPOT</button>
+          <button className={styles.futures}>Futures</button>
         </div>
       </div>
       <div className={styles.wrap_card}>

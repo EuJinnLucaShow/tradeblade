@@ -7,8 +7,8 @@ export default function Numbers() {
       <div className={styles.rectangle}></div>
       <div className={styles.container}>
         <div>
-          <h2 className={styles.title}>Цифры</h2>
-          <p className={styles.date_text}>Cентябрь 2022</p>
+          <h2 className={styles.title}>Numbers</h2>
+          <p className={styles.date_text}>September 2022</p>
         </div>
         <NumberStatistic />
       </div>

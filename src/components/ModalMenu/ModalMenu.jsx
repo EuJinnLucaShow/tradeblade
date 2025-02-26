@@ -28,13 +28,13 @@ export default function ModalMenu({ setIsOpen }) {
       <NavListMenu setIsOpen={setIsOpen} />
       <div className={styles.btn_group}>
         <Button
-          name={"регистрация"}
+          name={"Register"}
           bgColor={btnSignUpBgColor}
           color={"#030718"}
           border={false}
         />
         <Button
-          name={"Войти"}
+          name={"Login"}
           bgColor={btnSignInBgColor}
           color={btnSignUpBgColor}
           border={`2px solid ${btnSignUpBgColor}`}

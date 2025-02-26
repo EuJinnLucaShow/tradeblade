@@ -14,10 +14,10 @@ export default function SignUpInput() {
           onClick={(e) => heandleSubmit(e)}
           className={styles.button}
         >
-          начать
+          start
         </button>
       </form>
-      <p className={styles.text}>5 дней бесплатного пользования</p>
+      <p className={styles.text}>5 days of free usage</p>
     </div>
   );
 }
