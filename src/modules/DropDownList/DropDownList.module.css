@@ -24,6 +24,8 @@
   position: absolute;
   top: 38px;
   width: 128px;
+  background-color: #344049;
+  border-radius: 4px;
   z-index: 5;
 }
 
@@ -31,8 +33,8 @@
   box-sizing: border-box;
   width: 100%;
   border: none;
-  background-color: #344049;
-  padding: 6px 5px 6px 18px;
+  background-color: transparent;
+  padding: 6px 5px 6px 35px;
 
   text-align: left;
   color: var(--white);
